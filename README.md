@@ -1,1 +1,190 @@
-# 4ddu.github.io
+# 4ddu.github.io<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propel Initiative</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .highlight {
+      background: #eef2ff;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .cta {
+      background: #2563eb;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Propel Initiative</h1>
+    <p>Empowering underprivileged students through science, innovation, and real-world problem solving.</p>
+  </header>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      Propel Initiative conducts <strong>Shark Tank–style science fairs</strong> in underprivileged schools, helping students identify real problems, build innovative solutions, and connect top projects with potential sponsors.
+    </p>
+  </section>
+
+  <section>
+    <h2>What We Do</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Problem Identification</h3>
+        <p>Students learn how to observe their surroundings and identify meaningful problems worth solving.</p>
+      </div>
+      <div class="card">
+        <h3>Research & Innovation</h3>
+        <p>We guide students to research, ideate, and develop practical science-based solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Pitch & Prototype</h3>
+        <p>Students create presentations or prototypes and pitch them to specialists and sponsors.</p>
+      </div>
+      <div class="card">
+        <h3>Sponsorship Pathway</h3>
+        <p>Top projects from each school are connected with sponsors for funding and mentorship.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Program Structure (1 Week)</h2>
+    <div class="highlight">
+      <ul>
+        <li><strong>Day 1:</strong> Orientation & Group Formation (2 hrs)</li>
+        <li><strong>Day 2:</strong> Presentation, Prototype & Financial Planning (1 hr)</li>
+        <li><strong>Days 3–4:</strong> Student Preparation (School-supported time)</li>
+        <li><strong>Day 5:</strong> Mock Session & Feedback (2 hrs)</li>
+        <li><strong>Day 6:</strong> Final Pitch, Results & Recordings (2 hrs)</li>
+      </ul>
+      <p><strong>Total Time:</strong> ~7 hours across one working week</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Roles & Responsibilities</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Core Team</h3>
+        <p>Planning, coordination, content delivery, and sponsor outreach.</p>
+      </div>
+      <div class="card">
+        <h3>Teacher Coordinator</h3>
+        <p>Acts as a bridge between students and the Propel team via WhatsApp.</p>
+      </div>
+      <div class="card">
+        <h3>Specialists</h3>
+        <p>Provide expert guidance, validate ideas, and offer feedback.</p>
+      </div>
+      <div class="card">
+        <h3>Media Team</h3>
+        <p>Handles documentation, video recordings, and social media outreach.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Budget Overview</h2>
+    <div class="highlight">
+      <ul>
+        <li>Social Media: ₹800</li>
+        <li>Certificates: ₹1,000</li>
+        <li>Trophies: ₹1,500</li>
+        <li>Video & Media: ₹800</li>
+        <li>Student Materials: ~₹3,000</li>
+        <li>Contingency (20–30%): ₹2,000</li>
+      </ul>
+      <p><strong>Total Estimated Budget:</strong> ₹6,400 (~$71)</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get Involved</h2>
+    <p>
+      We welcome sponsors, mentors, schools, and volunteers who believe in empowering young minds through science.
+    </p>
+    <a href="#" class="cta">Partner With Us</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Propel Initiative | Empowering Ideas. Fueling Futures.</p>
+  </footer>
+
+</body>
+</html>
